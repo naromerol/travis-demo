@@ -13,12 +13,12 @@
 	<property name="classes.dir" location="bin" />
 	<property name="lib.dir" location="lib" />
     
-    <!-- Compile Java source from ${src.dir} and output it to ${web.classes.dir} -->
+	<!-- Compile Java source from ${src.dir} and output it to ${web.classes.dir} -->
     <target name="compile" depends="init" description="compile source code">
         <mkdir dir="${classes.dir}" />
         <javac destdir="${classes.dir}" source="${jdk.version}" 
             target="${jdk.version}" debug="true" 
-                        includeantruntime="false" classpathref="compile.path">
+                        includeantruntime="false">
             <src path="${src.dir}" />
         </javac>
     </target>
