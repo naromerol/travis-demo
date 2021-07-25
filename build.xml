@@ -13,22 +13,21 @@
 	<property name="classes.dir" location="bin" />
 	<property name="lib.dir" location="lib" />
     
+	<path id="junit-path">
+		    <pathelement location="${lib.dir}/org.junit_4.13.jar" />
+			<pathelement location="${lib.dir}/org.hamcrest.core_1.3.0.jar" />
+		</path>
+	
 	<!-- Compile Java source from ${src.dir} and output it to ${web.classes.dir} -->
     <target name="compile" depends="init" description="compile source code">
         <mkdir dir="${classes.dir}" />
         <javac destdir="${classes.dir}" source="${jdk.version}" 
             target="${jdk.version}" debug="true" 
-                        includeantruntime="false">
+                        includeantruntime="false" classpathref="junit-path">
             <src path="${src.dir}" />
         </javac>
     </target>
-	
-	<path id="junit-path">
-	    <pathelement location="${lib.dir}/org.junit_4.13.jar" />
-		<pathelement location="${lib.dir}/org.hamcrest.core_1.3.0.jar" />
-	</path>
-
-	
+		
     <!-- Run jUnit -->
     <target name="test" depends="compile">
 
