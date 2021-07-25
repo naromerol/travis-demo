@@ -45,13 +45,4 @@ public class TicketTest {
 		assertTrue(ticket.getTicketNo() > 1000000);
 	}
 	
-	@Test
-	public void testTicketBad() throws Exception {
-		assertThrows(IllegalArgumentException.class, ()->{
-			Ticket ticket = new Ticket(null,null,-100.0);
-		});
-	}
-	
-	
-
 }
