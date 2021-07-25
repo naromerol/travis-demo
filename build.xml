@@ -25,6 +25,7 @@
 	
 	<path id="junit-path">
 	    <pathelement location="${lib.dir}/org.junit_4.13.jar" />
+		<pathelement location="${lib.dir}/org.hamcrest.core_1.3.0.jar" />
 	</path>
 
 	

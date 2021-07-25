@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="0" hostname="NR-LENLAPTOP" name="demo.airticket.tests.AirlineTest" skipped="0" tests="1" time="0.08" timestamp="2021-07-25T15:24:27">
+<testsuite errors="0" failures="0" hostname="NR-LENLAPTOP" name="demo.airticket.tests.AirlineTest" skipped="0" tests="1" time="0.075" timestamp="2021-07-25T15:31:50">
   <properties>
     <property name="ant.library.dir" value="C:\Users\romer\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib" />
     <property name="java.specification.version" value="15" />
     <property name="ant.project.name" value="travis-demo" />
     <property name="sun.cpu.isalist" value="amd64" />
     <property name="sun.jnu.encoding" value="Cp1252" />
-    <property name="java.class.path" value="C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\lib\org.junit_4.13.jar;C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\bin;C:\Users\romer\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-launcher.jar;C:\Users\romer\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar;C:\Users\romer\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit.jar;C:\Users\romer\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit4.jar" />
+    <property name="java.class.path" value="C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\lib\org.junit_4.13.jar;C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\lib\org.hamcrest.core_1.3.0.jar;C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\bin;C:\Users\romer\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-launcher.jar;C:\Users\romer\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar;C:\Users\romer\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit.jar;C:\Users\romer\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit4.jar" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="sun.arch.data.model" value="64" />
     <property name="user.variant" value="" />
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD" />
     <property name="ant.file.travis-demo" value="C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\build.xml" />
     <property name="sun.boot.library.path" value="C:\Users\romer\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\bin" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner demo.airticket.tests.AirlineTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\report\TEST-demo.airticket.tests.AirlineTest.xml crashfile=C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\junitvmwatcher6488797736984072704.properties propsfile=C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\junit9363774548514107871.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner demo.airticket.tests.AirlineTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\report\TEST-demo.airticket.tests.AirlineTest.xml crashfile=C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\junitvmwatcher1591431648159693623.properties propsfile=C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\junit6651790292288222947.properties" />
     <property name="jdk.debug" value="release" />
     <property name="test.dir" value="C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\src" />
     <property name="sun.cpu.endian" value="little" />
@@ -72,28 +72,7 @@
     <property name="src.dir" value="C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\src" />
     <property name="ant.project.default-target" value="main" />
   </properties>
-  <testcase classname="demo.airticket.tests.AirlineTest" name="initializationError" time="0.005">
-    <error message="org/hamcrest/SelfDescribing" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/hamcrest/SelfDescribing
-	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
-	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:151)
-	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:825)
-	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:723)
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:646)
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:604)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-Caused by: java.lang.ClassNotFoundException: org.hamcrest.SelfDescribing
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:606)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
-</error>
-  </testcase>
+  <testcase classname="demo.airticket.tests.AirlineTest" name="test" time="0.002" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
