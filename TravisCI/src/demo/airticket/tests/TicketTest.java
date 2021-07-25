@@ -1,4 +1,4 @@
-package nestor.romero.airticket.tests;
+package demo.airticket.tests;
 
 import static org.junit.Assert.assertThrows;
 import static org.junit.Assert.assertTrue;
@@ -14,8 +14,11 @@ import com.cc.airline.ticketing.SeatingClass;
 import com.cc.airline.ticketing.Ticket;
 
 /**
- * COMP311 - A6 JUnit
- * @author Nestor Romero Leon - 301133331
+ * COMP311 - Github + Travis
+ * 
+ * Hitesh Dharmadhikari		301150694
+ * Nestor Romero Leon		301133331
+ * Tanisha Sharma			301144152
  *
  */
 public class TicketTest {

@@ -1,13 +1,15 @@
-package nestor.romero.airticket.tests;
+package demo.airticket.tests;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 /**
- * COMP311 - A6 JUnit
+ * COMP311 - Github + Travis
  * 
- * @author Nestor Romero Leon - 301133331
+ * Hitesh Dharmadhikari		301150694
+ * Nestor Romero Leon		301133331
+ * Tanisha Sharma			301144152
  *
  */
 @RunWith(Suite.class)
