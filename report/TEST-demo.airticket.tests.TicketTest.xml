@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="0" hostname="NR-LENLAPTOP" name="demo.airticket.tests.TicketTest" skipped="0" tests="1" time="0.083" timestamp="2021-07-25T15:15:26">
+<testsuite errors="1" failures="0" hostname="NR-LENLAPTOP" name="demo.airticket.tests.TicketTest" skipped="0" tests="1" time="0.076" timestamp="2021-07-25T15:24:28">
   <properties>
     <property name="ant.library.dir" value="C:\Users\romer\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib" />
     <property name="java.specification.version" value="15" />
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD" />
     <property name="ant.file.travis-demo" value="C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\build.xml" />
     <property name="sun.boot.library.path" value="C:\Users\romer\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\bin" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner demo.airticket.tests.TicketTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\report\TEST-demo.airticket.tests.TicketTest.xml crashfile=C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\junitvmwatcher17127918617120847036.properties propsfile=C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\junit15867484619928307256.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner demo.airticket.tests.TicketTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\report\TEST-demo.airticket.tests.TicketTest.xml crashfile=C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\junitvmwatcher2000872277862394190.properties propsfile=C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\junit10863733412507874848.properties" />
     <property name="jdk.debug" value="release" />
     <property name="test.dir" value="C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\src" />
     <property name="sun.cpu.endian" value="little" />
@@ -45,7 +45,7 @@
     <property name="path.separator" value=";" />
     <property name="os.version" value="10.0" />
     <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
-    <property name="ant.project.invoked-targets" value="junit" />
+    <property name="ant.project.invoked-targets" value="test" />
     <property name="file.encoding" value="Cp1252" />
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
     <property name="ant.file.type.travis-demo" value="file" />
@@ -72,7 +72,7 @@
     <property name="src.dir" value="C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\src" />
     <property name="ant.project.default-target" value="main" />
   </properties>
-  <testcase classname="demo.airticket.tests.TicketTest" name="initializationError" time="0.006">
+  <testcase classname="demo.airticket.tests.TicketTest" name="initializationError" time="0.004">
     <error message="org/hamcrest/SelfDescribing" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/hamcrest/SelfDescribing
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="0" hostname="NR-LENLAPTOP" name="demo.airticket.tests.AirTicketTestSuite" skipped="0" tests="1" time="0.081" timestamp="2021-07-25T15:24:26">
+<testsuite errors="1" failures="0" hostname="NR-LENLAPTOP" name="demo.airticket.tests.AirlineTest" skipped="0" tests="1" time="0.08" timestamp="2021-07-25T15:24:27">
   <properties>
     <property name="ant.library.dir" value="C:\Users\romer\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib" />
     <property name="java.specification.version" value="15" />
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD" />
     <property name="ant.file.travis-demo" value="C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\build.xml" />
     <property name="sun.boot.library.path" value="C:\Users\romer\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\bin" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner demo.airticket.tests.AirTicketTestSuite skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\report\TEST-demo.airticket.tests.AirTicketTestSuite.xml crashfile=C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\junitvmwatcher17619248640222819849.properties propsfile=C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\junit7909215422986538787.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner demo.airticket.tests.AirlineTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\report\TEST-demo.airticket.tests.AirlineTest.xml crashfile=C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\junitvmwatcher6488797736984072704.properties propsfile=C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\junit9363774548514107871.properties" />
     <property name="jdk.debug" value="release" />
     <property name="test.dir" value="C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\src" />
     <property name="sun.cpu.endian" value="little" />
@@ -72,7 +72,7 @@
     <property name="src.dir" value="C:\Dev\CENTENNIAL\S2-COMP311\travis-demo\src" />
     <property name="ant.project.default-target" value="main" />
   </properties>
-  <testcase classname="demo.airticket.tests.AirTicketTestSuite" name="initializationError" time="0.005">
+  <testcase classname="demo.airticket.tests.AirlineTest" name="initializationError" time="0.005">
     <error message="org/hamcrest/SelfDescribing" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/hamcrest/SelfDescribing
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
@@ -83,10 +83,6 @@
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:604)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
-	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
-	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3296)
-	at java.base/java.lang.Class.getConstructor0(Class.java:3501)
-	at java.base/java.lang.Class.getConstructor(Class.java:2244)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
