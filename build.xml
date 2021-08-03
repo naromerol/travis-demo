@@ -18,7 +18,7 @@
 			<pathelement location="${lib.dir}/org.hamcrest.core_1.3.0.jar" />
 		</path>
 	
-	<!-- Compile Java source from ${src.dir} and output it to ${web.classes.dir} -->
+	<!-- Compile Java source from ${src.dir} and output it to ${classes.dir} -->
     <target name="compile" depends="init" description="compile source code">
         <mkdir dir="${classes.dir}" />
         <javac destdir="${classes.dir}" source="${jdk.version}" 
@@ -28,7 +28,7 @@
         </javac>
     </target>
 		
-    <!-- Run jUnit -->
+    <!-- Run JUnit Classes with name wildcard -->
     <target name="test" depends="compile">
 
       <junit printsummary="yes" haltonfailure="no">
