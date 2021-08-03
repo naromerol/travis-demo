@@ -31,7 +31,7 @@
     <!-- Run JUnit Classes with name wildcard -->
     <target name="test" depends="compile">
 
-      <junit printsummary="yes" haltonfailure="no">
+      <junit printsummary="yes" haltonfailure="yes">
     
         <classpath refid="junit-path" />
         <classpath location="${classes.dir}" />
