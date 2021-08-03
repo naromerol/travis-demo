@@ -74,8 +74,8 @@ public class SellTicketTest {
 		
 		Ticket ticket = new Ticket(staff, seat, price);
 		System.out.println("Ticket issued: " + ticket);
-		assertEquals(ticket.getPrice(), 250.0, 0.005);
-		//assertEquals(ticket.getPrice(), 500.0, 0.005);
+		//assertEquals(ticket.getPrice(), 250.0, 0.005);
+		assertEquals(ticket.getPrice(), 500.0, 0.005);
 	}
 	
 	@Test
